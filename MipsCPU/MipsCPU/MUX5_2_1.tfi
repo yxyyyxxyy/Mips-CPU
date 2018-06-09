@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+MUX5_2_1 instance_name (
+    .data0(data0), 
+    .data1(data1), 
+    .sel(sel), 
+    .dataout(dataout)
+    );
+
+

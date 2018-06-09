@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+seg instance_name (
+    .clk(clk), 
+    .rst_n(rst_n), 
+    .data_in(data_in), 
+    .sel(sel), 
+    .data(data)
+    );
+
+

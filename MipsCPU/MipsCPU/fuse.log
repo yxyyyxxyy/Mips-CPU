@@ -1,0 +1,102 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o F:/LabProject/codlab/mipsCPU/mipsCPU/test1_isim_beh.exe -prj F:/LabProject/codlab/mipsCPU/mipsCPU/test1_beh.prj work.test1 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../../Lab05/removeShaking.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/SDFF1.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../../lab06/getMyClk.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../../Lab05/getPosedge.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/overflowtest.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab06/modulesInlab05/SEXT16_32.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../../lab06/seg.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/storebh.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/SingleStepForDownload.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/SDFF5.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/SDFF.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/RtypeHazard.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/RegsInsideHazard.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/one_sec_led_singlestep.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/NotEqual.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/lwBlockHazard.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/ipcore_dir/IMEM.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/ipcore_dir/DMEM.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/halfword.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/getOneSecClk.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/EXControl.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/EPC.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/EarlyBranchHazard.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/DownloadLed.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/Cause.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/biggerThan0.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab06/PCDFF.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab06/MUX32_4_1.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab06/modulesInlab05/REG_FILE.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab06/modulesInlab05/MUX32_2_1.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab06/modulesInlab05/ControlUnit.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab06/modulesInlab05/ALU.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab05/ipcoreROM/ShiftLeft2b31.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab05/ipcoreROM/ShiftLeft2b.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab05/ipcoreROM/MUX5_2_1.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab05/ipcoreROM/ADD4.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab05/ipcoreROM/ADD32B.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/top.v" into library work
+Analyzing Verilog file "F:/LabProject/codlab/mipsCPU/mipsCPU/test1.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "F:/LabProject/codlab/mipsCPU/mipsCPU/test1.v" Line 39: Port led is not connected to this instance
+WARNING:HDLCompiler:189 - "F:/LabProject/codlab/mipsCPU/mipsCPU/test1.v" Line 42: Size mismatch in connection of port <singlestep_sw>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/LabProject/codlab/mipsCPU/mipsCPU/test1.v" Line 44: Size mismatch in connection of port <selhigh16bit>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/LabProject/codlab/mipsCPU/mipsCPU/test1.v" Line 45: Size mismatch in connection of port <addr>. Formal port size is 6-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/LabProject/codlab/mipsCPU/mipsCPU/top.v" Line 286: Size mismatch in connection of port <a>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/LabProject/codlab/mipsCPU/mipsCPU/../../lab06/modulesInlab05/ALU.v" Line 60: Size mismatch in connection of port <mb>. Formal port size is 32-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module DownloadLed
+Compiling module getOneSecClk
+Compiling module SingleStepLedForDownload
+Compiling module removeShaking
+Compiling module SDFF1
+Compiling module getPosedge
+Compiling module SingleStepForDownload
+Compiling module MUX32_4_1
+Compiling module REG_FILE
+Compiling module EXControl
+Compiling module EPC
+Compiling module Cause
+Compiling module getMyClk
+Compiling module seg
+Compiling module RegsInsideHazard
+Compiling module MUX32_2_1
+Compiling module DIST_MEM_GEN_V7_2(C_FAMILY="spar...
+Compiling module DMEM
+Compiling module storebh
+Compiling module SEXT16_32
+Compiling module halfword
+Compiling module PCDFF
+Compiling module ADD4
+Compiling module SDFF
+Compiling module ADD32B
+Compiling module ShiftLeft2b25
+Compiling module biggerThan0
+Compiling module DIST_MEM_GEN_V7_2(C_FAMILY="spar...
+Compiling module IMEM
+Compiling module ShiftLeft2b31
+Compiling module NotEqual
+Compiling module SDFF5
+Compiling module MUX5_2_1
+Compiling module overflowtest
+Compiling module ALU
+Compiling module RtypeHazard
+Compiling module lwBlockHazard
+Compiling module EarlyBranchHazard
+Compiling module ControlUnit
+Compiling module top
+Compiling module test1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 27 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\test1_isim_beh.exe.sim\libPortability.dll".
+Compiled 42 Verilog Units
+Built simulation executable F:/LabProject/codlab/mipsCPU/mipsCPU/test1_isim_beh.exe
+Fuse Memory Usage: 30760 KB
+Fuse CPU Usage: 1061 ms

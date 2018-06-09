@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+getOneSec instance_name (
+    .clk(clk), 
+    .in(in), 
+    .op(op)
+    );
+
+

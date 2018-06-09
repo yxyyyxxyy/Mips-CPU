@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+SEXT16_32 instance_name (
+    .indata(indata), 
+    .outdata(outdata)
+    );
+
+

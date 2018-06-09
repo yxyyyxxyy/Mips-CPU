@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+ShiftLeft2b25 instance_name (
+    .indata(indata), 
+    .outdata(outdata)
+    );
+
+

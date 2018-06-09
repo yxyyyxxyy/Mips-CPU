@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+getPosedge instance_name (
+    .in(in), 
+    .clk(clk), 
+    .rst(rst), 
+    .op(op)
+    );
+
+

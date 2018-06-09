@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+NotEqual instance_name (
+    .data1(data1), 
+    .data2(data2), 
+    .noteq(noteq)
+    );
+
+

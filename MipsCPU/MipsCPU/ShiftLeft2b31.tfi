@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+ShiftLeft2b31 instance_name (
+    .datain(datain), 
+    .dataout(dataout)
+    );
+
+

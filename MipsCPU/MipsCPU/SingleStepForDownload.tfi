@@ -1,0 +1,14 @@
+
+
+
+// Instantiate the module
+SingleStepForDownload instance_name (
+    .btn(btn), 
+    .rst(rst), 
+    .singlestep(singlestep), 
+    .clk(clk), 
+    .singleStepSel(singleStepSel), 
+    .singleStepPC(singleStepPC)
+    );
+
+

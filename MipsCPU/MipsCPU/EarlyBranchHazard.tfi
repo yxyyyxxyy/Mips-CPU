@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+EarlyBranchHazard instance_name (
+    .J(J), 
+    .JR(JR), 
+    .BNE(BNE), 
+    .BGTZ(BGTZ), 
+    .RW2(RW2), 
+    .RW3(RW3), 
+    .Rs(Rs), 
+    .Rt(Rt), 
+    .Rd1(Rd1), 
+    .Rd2(Rd2), 
+    .DA(DA), 
+    .DB(DB)
+    );
+
+

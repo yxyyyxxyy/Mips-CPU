@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+biggerThan0 instance_name (
+    .data(data), 
+    .bigger(bigger)
+    );
+
+

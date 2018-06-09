@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+ADD32B instance_name (
+    .datain1(datain1), 
+    .datain2(datain2), 
+    .outdata(outdata)
+    );
+
+

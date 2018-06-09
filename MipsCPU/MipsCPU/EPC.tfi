@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+EPC instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .we(we), 
+    .PCin(PCin), 
+    .PCout(PCout)
+    );
+
+

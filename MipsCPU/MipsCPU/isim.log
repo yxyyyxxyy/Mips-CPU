@@ -1,0 +1,22 @@
+ISim log file
+Running: C:\Users\Administrator\Desktop\COD\MipsCPU\MipsCPU\test1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Administrator/Desktop/COD/MipsCPU/MipsCPU/test1_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING:  For instance uut/IMEM/, width 10 of formal port a is not equal to width 32 of actual constant.
+WARNING:  For instance ALU/ALUoverflowtest/, width 32 of formal port mb is not equal to width 1 of actual constant.
+WARNING:  For instance test1/uut/, width 1 of formal port singlestep_sw is not equal to width 32 of actual constant.
+WARNING:  For instance test1/uut/, width 1 of formal port selhigh16bit is not equal to width 32 of actual constant.
+WARNING:  For instance test1/uut/, width 6 of formal port addr is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: File DMEM.mif referenced on D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v at line 50 cannot be opened for reading. Please ensure that this file is available in the current working directory.WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: File IMEM.mif referenced on D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v at line 50 cannot be opened for reading. Please ensure that this file is available in the current working directory.Finished circuit initialization process.

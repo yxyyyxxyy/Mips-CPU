@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+RegsInsideHazard instance_name (
+    .writeaddr(writeaddr), 
+    .readaddr1(readaddr1), 
+    .readaddr2(readaddr2), 
+    .data(data), 
+    .we(we), 
+    .outdata1(outdata1), 
+    .outdata2(outdata2), 
+    .IA(IA), 
+    .IB(IB)
+    );
+
+

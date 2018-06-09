@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+RtypeHazard instance_name (
+    .Rs(Rs), 
+    .Rt(Rt), 
+    .Rd1(Rd1), 
+    .Rd2(Rd2), 
+    .RW2(RW2), 
+    .RW3(RW3), 
+    .RA(RA), 
+    .RB(RB)
+    );
+
+
