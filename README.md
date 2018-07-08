@@ -1,5 +1,7 @@
 # lab07 MIPS CPU
 
+*注：ExControl模块的 we = PCadd4 < 400? 1'b1: 1'b0; 表示当PC小于400时允许单步中断，方便下载到板子上测试（因为我的异常处理地址是400，只需在400处jr EPC即可，这样相当于禁止了异常处理过程中的单步中断） 此语句可改为当允许单步中断时 we = 1。电路不会修改SingleStep的值，需要外界设置，电路只会在允许单步中断时检测它，如果为1则在周期结束时进行异常处理*
+
 ## 实验说明
 
  - 实现了37条指令，包括
@@ -39,14 +41,14 @@
  - 开发板： Nexys2
  - 时钟频率： 50 MHz
 
-| Property Name | Value   | 
-| --------   | ----- | 
+| Property Name | Value   |
+| --------   | ----- |
 | Top-Level Source Type     | HDL |
-| Family        |   Spartan3E   | 
-| Device        |    XC3S500E    | 
-| Package        |    FG320    | 
-| Speed        |    -5    | 
-| Preferred Language     |    Verilog    | 
+| Family        |   Spartan3E   |
+| Device        |    XC3S500E    |
+| Package        |    FG320    |
+| Speed        |    -5    |
+| Preferred Language     |    Verilog    |
 
 
 ### 下载及使用方法
@@ -75,13 +77,13 @@
 EPC 和 Cause 均有读端口，EPC 可以通过仿真读出中断发生的地址，Cause 已经连在 LED 灯上。
 
 
-| 异常名称 | Cause 寄存器值   | 
-| --------   | ----- | 
+| 异常名称 | Cause 寄存器值   |
+| --------   | ----- |
 | 无异常    | 0 |
-|溢出       |   1  | 
-| 断点        |    2    | 
-| 除以零        |   3  | 
-| 单步      |    4   | 
+|溢出       |   1  |
+| 断点        |    2    |
+| 除以零        |   3  |
+| 单步      |    4   |
 
 注：没有实现 div 指令，因为除号不能综合，而且没有机器码。自定义机器码 op = 000000，funct = 111111 表示 div $rd, $rs, $rt 指令，这个指令没有效果，但是当除数为0时会发生中断。
 
